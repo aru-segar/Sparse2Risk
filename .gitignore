@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Datasets 
+/dataset/
+/datasets/
+/data/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+checkpoints/
+weights/
+
+# Large prediction caches
+cache/
+caches/
+teacher_cache/
+predictions/
+
+# Experiment outputs
+outputs/*
+!outputs/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
